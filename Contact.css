@@ -1,0 +1,48 @@
+body {
+	background: url(./picture/bb.jpg);
+}
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+.card img {
+	margin-top: 1rem;
+}
+.card h1 {
+  font-family: Phetsarath OT;
+  color: lightskyblue;
+}
+.card p {
+  font-family: Phetsarath OT;
+  color: lightskyblue;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  font-family: Phetsarath OT;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(32, 35, 255);
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
